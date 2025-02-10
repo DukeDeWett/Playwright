@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 // Increasing the timeout to 60 seconds, as the application is supposed to finish whole process in one minute.
 test.setTimeout(60000);
 
-// Dane testowe
+// The test data
 const loginUrl = 'https://testyautomatyczne.telemedi.com/pl/login'; // Login URL
 const mainUrl = 'https://testyautomatyczne.telemedi.com/pl' // Main page
 const username = 'testy.automatyczne+rekrutacjaqa@telemedi.com'; // Username
